@@ -1,0 +1,37 @@
+camera_node:
+  ros__parameters:
+    device: 0
+    fps: 30.0
+    frame_id: camera_rgb
+
+yolo_cable_detector:
+  ros__parameters:
+    confidence_threshold: 0.45
+    use_tros_backend: true
+    model_path: /opt/tros_models/yolov8_cable_defect.bin
+
+odom_fusion_node:
+  ros__parameters:
+    imu_yaw_weight: 0.08
+
+inspection_planner_node:
+  ros__parameters:
+    base_speed: 0.22
+    max_speed: 0.35
+    max_angular: 0.90
+    offset_gain: 0.85
+    obstacle_slow_distance: 0.75
+    obstacle_stop_distance: 0.35
+
+motor_pid_controller:
+  ros__parameters:
+    wheel_base_m: 0.235
+    serial.enabled: false
+    serial.port: /dev/ttyUSB0
+    serial.baudrate: 115200
+
+data_logger_node:
+  ros__parameters:
+    log_dir: inspection_logs
+    save_debug_images: true
+

@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.py text working-tree-encoding=UTF-8
+*.md text working-tree-encoding=UTF-8
+*.yaml text working-tree-encoding=UTF-8
+*.yml text working-tree-encoding=UTF-8
+*.xml text working-tree-encoding=UTF-8
+*.cfg text working-tree-encoding=UTF-8
+*.lua text working-tree-encoding=UTF-8
+*.sh text working-tree-encoding=UTF-8 eol=lf
+*.jpg binary
+*.jpeg binary
+*.png binary
