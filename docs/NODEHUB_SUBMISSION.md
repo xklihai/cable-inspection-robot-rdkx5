@@ -68,10 +68,11 @@ Apache License 2.0
 
 ## 推荐封面图
 
-`docs/images/robot_overview.jpg`
+`docs/images/nodehub_banner.png`
 
 ## 推荐项目截图
 
 - `docs/images/system_architecture.png`
 - `docs/images/control_loop.png`
 - `docs/images/hardware_stack.jpg`
+- `docs/images/nodehub_banner.png`
