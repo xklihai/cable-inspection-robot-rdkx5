@@ -11,7 +11,7 @@ SUFFIXES = {".py", ".md", ".yaml", ".yml", ".xml", ".cfg", ".lua"}
 def main() -> None:
     bad = []
     for path in ROOT.rglob("*"):
-        if path.is_file() and path.suffix in SUFFIXES:
+        if path.is_file() and path.suffix.lower() in SUFFIXES:
             try:
                 path.read_text(encoding="utf-8")
             except UnicodeDecodeError:
@@ -23,4 +23,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

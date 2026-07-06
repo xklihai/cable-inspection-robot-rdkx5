@@ -1,6 +1,6 @@
 # NodeHub 项目发布文案草稿
 
-以下内容可用于地瓜机器人开发者社区 NodeHub 项目页。发布前请把仓库地址、演示视频地址、报告地址替换为实际链接。
+以下内容可用于地瓜机器人开发者社区 NodeHub 项目页。发布前请把仓库地址、演示视频地址、报告地址替换为实际链接。NodeHub 会抓取仓库根目录的 `README_cn.md` 作为中文页面内容，抓取 `README.MD` 作为英文页面内容。
 
 ## 项目标题
 
@@ -61,6 +61,10 @@ ros2 launch cable_inspection_robot inspection_bringup.launch.py
 - `launch/`：核心系统启动文件。
 - `tests/`：UTF-8 编码检查、PID 与串口协议测试。
 - `docs/`：部署说明、NodeHub 发布文案和项目图片。
+
+## 许可证
+
+Apache License 2.0
 
 ## 推荐封面图
 

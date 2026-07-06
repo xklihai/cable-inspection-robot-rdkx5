@@ -4,7 +4,7 @@
   <version>0.1.0</version>
   <description>ROS2/TROS cable inspection robot nodes for RDK X5.</description>
   <maintainer email="cable-inspection-robot-contributors@example.com">Cable Inspection Robot Contributors</maintainer>
-  <license>MIT</license>
+  <license>Apache-2.0</license>
 
   <exec_depend>ament_index_python</exec_depend>
   <exec_depend>launch</exec_depend>

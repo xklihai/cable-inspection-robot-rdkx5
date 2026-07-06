@@ -10,7 +10,7 @@ setup(
     packages=[package_name],
     data_files=[
         ("share/ament_index/resource_index/packages", ["resource/" + package_name]),
-        ("share/" + package_name, ["package.xml", "README.md"]),
+        ("share/" + package_name, ["package.xml", "README_cn.md", "README.MD"]),
         ("share/" + package_name + "/launch", glob("launch/*.launch.py")),
         ("share/" + package_name + "/config", glob("config/*")),
     ],
@@ -19,7 +19,7 @@ setup(
     maintainer="Cable Inspection Robot Contributors",
     maintainer_email="cable-inspection-robot-contributors@example.com",
     description="RDK X5 cable inspection robot ROS2/TROS core nodes.",
-    license="MIT",
+    license="Apache-2.0",
     entry_points={
         "console_scripts": [
             "camera_node = cable_inspection_robot.camera_node:main",

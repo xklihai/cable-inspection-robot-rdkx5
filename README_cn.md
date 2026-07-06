@@ -147,7 +147,7 @@ DetectionResult(
 本仓库用于社区开源和复现实验，建议配套提交：
 
 - 源码仓库地址。
-- `README.md` 和 `docs/DEPLOYMENT.md`。
+- `README_cn.md` 和 `README.MD`。
 - 作品演示视频。
 - 作品设计报告 PDF。
 - 实车照片或关键截图。
@@ -155,4 +155,4 @@ DetectionResult(
 
 ## 9. 许可证
 
-代码采用 MIT License 开源。模型权重、第三方数据集、硬件厂商资料和比赛文档如另有授权，应遵循其原始许可证。
+代码采用 Apache License 2.0 开源。模型权重、第三方数据集、硬件厂商资料和比赛文档如另有授权，应遵循其原始许可证。
