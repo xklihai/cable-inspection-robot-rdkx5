@@ -74,7 +74,7 @@ cable-inspection-robot-rdkx5/
 ```bash
 mkdir -p ~/rdkx5_ws/src
 cd ~/rdkx5_ws/src
-git clone <your-repository-url> cable-inspection-robot-rdkx5
+git clone https://github.com/xklihai/cable-inspection-robot-rdkx5.git cable-inspection-robot-rdkx5
 cd ~/rdkx5_ws
 rosdep install --from-paths src --ignore-src -r -y
 colcon build --packages-select cable_inspection_robot

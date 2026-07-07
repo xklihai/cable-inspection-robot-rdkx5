@@ -31,7 +31,7 @@ RDK X5、ROS2、TROS、YOLOv8、LiDAR、Cartographer、Nav2、差分轮底盘、
 
 ## 开源仓库
 
-仓库地址：`<your-repository-url>`
+仓库地址：`https://github.com/xklihai/cable-inspection-robot-rdkx5.git`
 
 ## 演示视频
 
@@ -46,7 +46,7 @@ RDK X5、ROS2、TROS、YOLOv8、LiDAR、Cartographer、Nav2、差分轮底盘、
 ```bash
 mkdir -p ~/rdkx5_ws/src
 cd ~/rdkx5_ws/src
-git clone <your-repository-url> cable-inspection-robot-rdkx5
+git clone https://github.com/xklihai/cable-inspection-robot-rdkx5.git cable-inspection-robot-rdkx5
 cd ~/rdkx5_ws
 rosdep install --from-paths src --ignore-src -r -y
 colcon build --packages-select cable_inspection_robot
