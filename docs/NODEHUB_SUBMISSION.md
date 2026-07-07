@@ -76,3 +76,13 @@ Apache License 2.0
 - `docs/images/control_loop.png`
 - `docs/images/hardware_stack.jpg`
 - `docs/images/nodehub_banner.png`
+- `docs/images/report_function_overview.png`
+- `docs/images/report_development_workflow.png`
+- `docs/images/report_hardware_interface.png`
+- `docs/images/report_chassis_comm_flow.png`
+- `docs/images/report_state_machine.png`
+- `docs/images/report_web_dashboard_arch.png`
+- `docs/images/report_slam_nav_flow.png`
+- `docs/images/report_bpu_deploy_flow.png`
+- `docs/images/report_c30d_board_framework.png`
+- `docs/images/report_cartographer_framework.png`

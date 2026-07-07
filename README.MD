@@ -20,6 +20,30 @@ Control loop:
 
 ![Control loop](docs/images/control_loop.png)
 
+### Report Figure Gallery
+
+The following figures are extracted from the final design report. They summarize the functional scope, hardware wiring, chassis communication, control state machine, Web dashboard, SLAM pipeline, and BPU deployment workflow.
+
+| Function overview | Engineering workflow |
+|---|---|
+| ![Function overview](docs/images/report_function_overview.png) | ![Engineering workflow](docs/images/report_development_workflow.png) |
+
+| Hardware interface | Chassis communication flow |
+|---|---|
+| ![Hardware interface](docs/images/report_hardware_interface.png) | ![Chassis communication flow](docs/images/report_chassis_comm_flow.png) |
+
+| Five-state tracking state machine | Web dashboard service |
+|---|---|
+| ![Five-state tracking state machine](docs/images/report_state_machine.png) | ![Web dashboard service](docs/images/report_web_dashboard_arch.png) |
+
+| SLAM and navigation data flow | BPU quantization and deployment |
+|---|---|
+| ![SLAM and navigation data flow](docs/images/report_slam_nav_flow.png) | ![BPU quantization and deployment](docs/images/report_bpu_deploy_flow.png) |
+
+| C30D controller framework | Cartographer framework |
+|---|---|
+| ![C30D controller framework](docs/images/report_c30d_board_framework.png) | ![Cartographer framework](docs/images/report_cartographer_framework.png) |
+
 Data flow:
 
 1. `/camera/image_raw` receives RGB images.

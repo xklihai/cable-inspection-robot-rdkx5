@@ -20,6 +20,30 @@
 
 ![Control loop](docs/images/control_loop.png)
 
+### 报告图集
+
+以下图片均来自作品设计报告，覆盖功能、硬件、通信、状态机、Web、SLAM 与 BPU 部署等核心链路，便于在 NodeHub 页面快速理解系统完整性。
+
+| 功能总览 | 开发工程流程 |
+|---|---|
+| ![功能总览](docs/images/report_function_overview.png) | ![开发工程流程](docs/images/report_development_workflow.png) |
+
+| 硬件接口 | 底盘通信流程 |
+|---|---|
+| ![硬件接口](docs/images/report_hardware_interface.png) | ![底盘通信流程](docs/images/report_chassis_comm_flow.png) |
+
+| 五状态状态机 | Web 看板服务 |
+|---|---|
+| ![五状态状态机](docs/images/report_state_machine.png) | ![Web 看板服务](docs/images/report_web_dashboard_arch.png) |
+
+| SLAM 与导航数据流 | BPU 量化部署 |
+|---|---|
+| ![SLAM 与导航数据流](docs/images/report_slam_nav_flow.png) | ![BPU 量化部署](docs/images/report_bpu_deploy_flow.png) |
+
+| C30D 主控板框架 | Cartographer 系统框架 |
+|---|---|
+| ![C30D 主控板框架](docs/images/report_c30d_board_framework.png) | ![Cartographer 系统框架](docs/images/report_cartographer_framework.png) |
+
 核心链路：
 
 1. `/camera/image_raw` 输入 RGB 图像。
