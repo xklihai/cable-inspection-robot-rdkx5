@@ -137,4 +137,4 @@ DetectionResult(
 
 ## License
 
-This project is released under the Apache License 2.0. Model weights, third-party datasets, hardware vendor materials, and competition documents may have their own licenses.
+This project is released under the Apache License 2.0. Model weights, third-party datasets, hardware vendor materials, and related documents may have their own licenses.

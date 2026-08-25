@@ -23,4 +23,4 @@
 - [ ] 标签包含 RDK X5、ROS2、TROS、YOLOv8、LiDAR、Cartographer、Nav2。
 - [ ] 填入开源仓库地址。
 - [ ] 附上演示视频和作品报告。
-- [ ] 发布后把 NodeHub 项目链接回填到比赛报名/提交页面。
+- [ ] 发布后把 NodeHub 项目链接回填到项目发布页面。
